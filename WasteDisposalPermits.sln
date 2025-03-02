@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WasteDisposalPermits", "WasteDisposalPermits.csproj", "{02720CC7-ABAA-44EA-B1A0-5D0C56F58AE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A5BB7C71-D39D-47AE-B728-C887702940D0} = {A5BB7C71-D39D-47AE-B728-C887702940D0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL_Library", "..\SQL_Library\SQL_Library.csproj", "{A5BB7C71-D39D-47AE-B728-C887702940D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02720CC7-ABAA-44EA-B1A0-5D0C56F58AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02720CC7-ABAA-44EA-B1A0-5D0C56F58AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02720CC7-ABAA-44EA-B1A0-5D0C56F58AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02720CC7-ABAA-44EA-B1A0-5D0C56F58AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BB7C71-D39D-47AE-B728-C887702940D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BB7C71-D39D-47AE-B728-C887702940D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BB7C71-D39D-47AE-B728-C887702940D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BB7C71-D39D-47AE-B728-C887702940D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
